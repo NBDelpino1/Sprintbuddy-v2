@@ -1,5 +1,5 @@
 body {
-    background: url("../img/bg-img.png") no-repeat bottom center fixed;
+    background: url("../img/red-theme/bg-img.png") no-repeat bottom center fixed;
     background-size: cover;
     color: #282D3A;
     letter-spacing:1px;
@@ -49,9 +49,15 @@ body {
     border-radius: 30px;
     font-weight:bold;
 }
-.app-theme-text {
+.app-theme-text-prim {
     font-family: 'Dosis', sans-serif;
-    color: #00C398;
+    color: #fff;
+    font-weight:bold;
+    letter-spacing: normal;
+}
+.app-theme-text-sec {
+    font-family: 'Dosis', sans-serif;
+    color: #282D3A;
     font-weight:bold;
     letter-spacing: normal;
 }
@@ -84,7 +90,7 @@ label {
 }
 .chosen-container-single .chosen-default,
 a:not([href]):not([tabindex]) {
-    background: url("../img/select-bg.png")no-repeat !important;
+    background: url("../img/red-theme/select-bg.png")no-repeat !important;
     width:200px !important;
     height:40px !important;
     padding-top:5px !important;
@@ -93,9 +99,16 @@ a:not([href]):not([tabindex]) {
     box-shadow: none !important;
 }
 .chosen-container-single .chosen-single div b {
-    background: url("../img/down-arrow.png")no-repeat !important;
+    background: url("../img/red-theme/down-arrow.png")no-repeat !important;
     margin-top:15px !important;
     margin-left:-15px !important;
+}
+.chosen-container-single .chosen-drop {
+    width:200px !important;
+    border-color: #F4F4F4 !important;
+}
+.chosen-container .chosen-results li.active-result {
+    margin-bottom:10px;
 }
 #submit {
     /*background-color: #FF3366;*/
@@ -109,7 +122,6 @@ a:not([href]):not([tabindex]) {
     border-top:5px solid #FF3366;
     background-color: #fff;
 }
-
 .modal-header {
     background-color: transparent !important;
     border-bottom:1px dotted #ced4da;
@@ -128,6 +140,9 @@ a:not([href]):not([tabindex]) {
     color: #5D6777;
     text-transform: uppercase;
 }
+.modal-open .modal {
+    background-color: rgba(0, 0, 0, 0.76);
+}
 /* Media queries */
 @media only screen and (min-width: 600px) {
     #login-button {
@@ -137,7 +152,7 @@ a:not([href]):not([tabindex]) {
         width:200px;
     }
     #login-form {
-        background-color: rgba(0, 0, 0, 0.41);
+        background-color: rgba(0, 0, 0, 0.24);
         border-radius: 3px;
     }
     #main-content-wrapper {

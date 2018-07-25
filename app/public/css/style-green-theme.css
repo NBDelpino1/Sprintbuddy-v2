@@ -1,0 +1,189 @@
+body {
+    background: url("../img/red-theme/bg-img2.png") no-repeat bottom center fixed;
+    background-size: cover;
+    color: #282D3A;
+    letter-spacing:1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+/* Landing Page styles */
+#landing-page-wrapper {
+    position: relative;
+}
+#landing-sub-wrapper {
+    width:350px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#login-form {
+    padding:40px;
+    border-radius: 3px;
+}
+.custom-form-control {
+    background-color: transparent;
+    border:0;
+    border-radius:0;
+    border-bottom:1px solid #959598;
+    margin-bottom:40px !important;
+    box-shadow: none !important;
+    color: #959598;
+}
+.custom-input-group-addon {
+    background-color: transparent;
+    border:0;
+}
+#login-button {
+    /*background-color: #FF3366;*/
+    background-color: #6DD042;
+    color: #fff;
+    border-radius: 30px;
+    width:100%;
+    font-weight:bold;
+}
+#submit {
+    background-color: #6DD042;
+    color: #fff;
+    border-radius: 30px;
+    font-weight:bold;
+}
+.app-theme-text-prim {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    font-weight:bold;
+    letter-spacing: normal;
+}
+.app-theme-text-sec {
+    font-family: 'Dosis', sans-serif;
+    color: #282D3A;
+    font-weight:bold;
+    letter-spacing: normal;
+}
+/* Content page styles */
+#main-content-wrapper {
+    background-color: #fff;
+    padding-top:15px;
+    border-top:5px solid #6DD042;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.35));
+}
+.content-user-icon {
+    margin:20px;
+}
+label {
+    font-size:12px;
+    font-weight:bold;
+    color: #5D6777;
+}
+.card {
+    border-radius: 0;
+    border-color: transparent;
+    border-bottom:1px dotted #ced4da;
+}
+.card-text {
+    margin-top:10px;
+}
+.clear-left {
+    clear: left;
+    padding-top:10px;
+}
+.chosen-container-single .chosen-default,
+a:not([href]):not([tabindex]) {
+    background: url("../img/red-theme/select-bg.png")no-repeat !important;
+    width:200px !important;
+    height:40px !important;
+    padding-top:5px !important;
+    border-radius: 0 !important;
+    border:1px solid #F4F4F4 !important;
+    box-shadow: none !important;
+}
+.chosen-container-single .chosen-single div b {
+    background: url("../img/red-theme/down-arrow.png")no-repeat !important;
+    margin-top:15px !important;
+    margin-left:-15px !important;
+}
+.chosen-container-single .chosen-drop {
+    width:200px !important;
+    border-color: #F4F4F4 !important;
+}
+.chosen-container .chosen-results li.active-result {
+    margin-bottom:10px;
+}
+#submit {
+    /*background-color: #FF3366;*/
+    background-color: #6DD042;
+    color: #fff;
+    border-radius: 30px;
+    width:100%;
+}
+.modal-content {
+    border:0;
+    border-top:5px solid #6DD042;
+    background-color: #fff;
+}
+.modal-header {
+    background-color: transparent !important;
+    border-bottom:1px dotted #ced4da;
+}
+.modal-footer {
+    background-color: transparent !important;
+    border-top:1px dotted #ced4da;
+}
+.modal-close-button {
+    background-color: #6DD042;
+    color: #fff;
+    border-radius: 30px;
+    font-weight:bold;
+}
+.small-modal-text {
+    font-size:12px;
+    color: #5D6777;
+    text-transform: uppercase;
+}
+.modal-open .modal {
+    background-color: rgba(109, 208, 66, 0.78);
+}
+.modal-content{
+    box-shadow: 0 0 60px #4e982f;
+}
+.modal-action-button {
+    background-color: transparent;
+    border:1px solid #6DD042;
+    color: #fff;
+    border-radius: 30px;
+    font-weight:bold;
+    width:120px;
+    padding-bottom:10px;
+}
+#matchImg {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border:5px solid #f1f2f3;
+}
+/* Media queries */
+@media only screen and (min-width: 600px) {
+    #login-button {
+        width:100%;
+    }
+    #submit {
+        width:200px;
+    }
+    #login-form {
+        /*Login form black color*/
+        background-color: rgba(109, 208, 66, 0.27);
+        /*Login form white color*/
+        /*background-color: rgba(255, 255, 255, 0.24);*/
+        border-radius: 3px;
+        box-shadow: 0 0 60px #000000;
+    }
+    #main-content-wrapper {
+        margin-top:80px;
+    }
+}
+
+
+
+
+

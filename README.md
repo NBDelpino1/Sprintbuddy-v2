@@ -1,4 +1,6 @@
 ####Sprintbuddy-v2
 
+##### This was probably one of my least favourite apps to redesign. The end result below was after numerous itterations, both in layout and color. My final choice was to stop trying to make it something it's not. It's a survey, NOT a "website" so to speak. The loud green was just to be different and eye catching.
 
-![group 43](https://user-images.githubusercontent.com/18251657/43181873-33f5ace4-8fad-11e8-9150-c6a5c0c82cd4.png)
+
+![spintbuddy_sample_image](https://user-images.githubusercontent.com/18251657/43226154-03a3461a-9029-11e8-9200-db0ff6909ba9.png)
