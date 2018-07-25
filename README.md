@@ -1,4 +1,4 @@
-####Sprintbuddy-v2
+#### Sprintbuddy-v2
 
 ##### This was probably one of my least favourite apps to redesign. The end result below was after numerous itterations, both in layout and color. My final choice was to stop trying to make it something it's not. It's a survey, NOT a "website" so to speak. The loud green was just to be different and eye catching.
 
